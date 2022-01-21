@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container div {
+    padding: 5px;
+}
+
+.container div a {
+    text-decoration: none;
+    color: black; 
+}
+
+.container div a:hover {
+    text-decoration: underline;
+}
+
+#item6a {
+    color: white;
+    background: #1a73e8;
+    border-radius: 2px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+#item6a:hover {
+    background: cornflowerblue;
+    border-radius: 2px;
+}
+
+#item5a:hover {
+    background: #ccc;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+
+.googlelogoimg {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
