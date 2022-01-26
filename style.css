@@ -1,3 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -48,12 +61,126 @@
     padding-top: 5px;
 }
 
-.googlelogoimg {
+.googles {
+    flex: 1;
+}
+
+.googles .googlelogo {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 107px;
+    width: 17%;
+}
+
+.search {
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+}
+
+.search .search_input {
+    display: block;
+    border: 1px solid #ddd;
+    opacity: 0.90;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+}
+
+.search .search_input:hover {
+    border: 1px solid #000;
+}
+
+.search .search_icon {
+    width: 20px;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+
+.search .microphone_icon {
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: -24px;
+}
+
+.submit {
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    color: #666;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 28px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 100ms;
+}
+
+.submit:hover {
+    border: 1px solid #aaa;
+}
+
+.language {
+    margin-top: 30px;
+    text-align: center;
+    color: #111;
+}
+
+.language a {
+    margin-left: 5px;
+    color: #1a0dab;
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #ccc;
+}
+
+footer h4 {
+    opacity: 0.55;
+    line-height: 39px;
+    padding-left: 30px;
+    border: 1px solid #eee;
+}
+
+footer a {
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11px;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+
+.footer div a {
+    text-decoration: none;
+}
+
+.f-left {
+    padding-left: 18px;
+    flex: 1;
+}
+
+.f-right {
+    padding-right: 18px;
 }
 
 
